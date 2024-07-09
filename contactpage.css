@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html body{
+    height: 100vh;
+    width: 100%;
+    color: #233643,
+}
+.Mainblock{
+    display: flex;
+    height: 100vh;
+    color: #b8c983;
+}
+.main{
+    margin: 10vh 0px 10px 20px;
+    height: 80Vh;
+    width: 60%;
+}
+
+.info{
+    margin:  20vh 10px 20px;
+    height: 60vh;
+    gap: 10px;
+    width: 40%;
+}
+input{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    border-bottom: 1px solid #b8c983;
+    color: #fff;
+}
+::placeholder{
+    color: #b8c983;
+}
+.first{
+    padding-left:25% ;
+    margin-top: 10%;
+    width: 75%;
+}
+.second{
+    font-size: 20px;
+    margin: 10px;
+    width: 75%;
+}
+.third ,.fourth ,.fifth{
+    margin: 10px;
+    height: 8%;
+    width: 75%;
+}
+.sixth{
+    background-color:transparent;
+    gap: 10;
+    margin:10px;
+    height: 8%;
+    width: 75%;
+}
+
+.sixth button{
+    height: 100%;
+    width: 100%;
+    background-color: #b8c983;
+    color: #233643;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1.5vw;
+    align-items:flex-start;
+    background: linear-gradient(
+        135deg,
+        rgba(184, 201, 131 ,1),
+        rgba(184, 201, 131 ,0.5)
+      );
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid  rgb(184, 201, 131 ,1);
+      box-shadow: 0 8px 37px rgba(184, 201, 131);
+      color: #233643;
+}
+
+.info1{
+    padding-left:20%;
+    height: 13%;
+    width: 60%;
+    font-size:1.5vw ;
+}
+.info2{
+    padding-left:20%;
+    height: 10%;
+    width: fit-content;
+    
+    font-size:1vw ;
+}
+.info3{
+    padding-left:20%;
+    height: 10%;
+    width: fit-content;
+    font-size:1vw ;
+}
+.info4{
+    padding-left:20%;
+    height: 10%;
+    width: fit-content;
+    font-size:1vw ;
+}
+.info5{
+    margin-top: 1vw;
+    padding-left:20%;
+    height: 10%;
+    width: fit-content;
+    font-size:1vw ;
+}
+.info6{
+    height: 10%;
+    width: fit-content;
+    display: flex;
+    gap: 3vw;
+    padding-left: 20%;
+    justify-content: space-between;
+}
+
+.info6 li{
+    list-style-type: none;
+}
